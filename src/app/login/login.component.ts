@@ -13,12 +13,7 @@ export class LoginComponent implements OnInit {
   ngOnInit() {
   }
 
-	  loginNow(email, password){
-
-	  }
-
-
-
+	 
 	register(form) {
 	    this.router.navigate(['signup']);
 	}
